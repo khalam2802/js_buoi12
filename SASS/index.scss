@@ -1,0 +1,21 @@
+// variable
+$color-blue-1: blue;
+header {
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+    
+  }
+}
+.logo {
+  color: $color-blue-1;
+}
+nav {
+  a {
+    color: $color-blue-1;
+  }
+}
